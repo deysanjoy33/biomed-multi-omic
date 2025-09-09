@@ -145,7 +145,7 @@ trainer:
 
 ```bash
 export INPUT_DIRECTORY=... # path to the three (train/test/dev.csv) files
-bmfm-targets-run -cn dna_finetune_train_and_test_config input_directory=$INPUT_DIRECTORY output_directory=/tmp checkpoint=ibm-research/biomed.dna.snp.modernbert.113m.v1
+bmfm-targets-run -cn dna_finetune_train_and_test_config input_directory=$INPUT_DIRECTORY working_dir=/tmp checkpoint=ibm-research/biomed.dna.snp.modernbert.113m.v1
 ```
 
 ### Running benchmarking fine-tuning tasks of DNA
